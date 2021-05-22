@@ -1,0 +1,22 @@
+{
+  "name": "layercake-sveltekit-template",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/kit": "next",
+    "svelte-preprocess": "^4.7.3",
+    "svelte": "^3.34.0",
+    "d3-color": "^2.0.0",
+    "d3-format": "^2.0.0",
+    "d3-interpolate": "^2.0.1",
+    "d3-time-format": "^3.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "layercake": "^4.1.0"
+  }
+}
