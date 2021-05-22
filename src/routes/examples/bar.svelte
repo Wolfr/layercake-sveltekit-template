@@ -2,9 +2,9 @@
   import { LayerCake, Svg } from 'layercake';
   import { scaleBand } from 'd3-scale';
 
-  import Bar from '$lib/components/Bar.svelte';
-  import AxisX from '$lib/components/AxisX.svelte';
-  import AxisY from '$lib/components/AxisY.svelte';
+  import Bar from '$lib/layercake-components/Bar.svelte';
+  import AxisX from '$lib/layercake-components/AxisX.svelte';
+  import AxisY from '$lib/layercake-components/AxisY.svelte';
 
   let data = [
       {
@@ -48,6 +48,7 @@
   .chart-container {
     width: 100%;
     height: 500px;
+    font-family: sans-serif;
   }
 </style>
 

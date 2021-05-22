@@ -1,9 +1,9 @@
 <script>
   import { LayerCake, Svg, Html, Canvas } from 'layercake';
 
-  import AxisX from '$lib/components/AxisX.svelte';
-  import AxisY from '$lib/components/AxisY.svelte';
-  import Line from '$lib/components/Line.svelte';
+  import AxisX from '$lib/layercake-components/AxisX.svelte';
+  import AxisY from '$lib/layercake-components/AxisY.svelte';
+  import Line from '$lib/layercake-components/Line.svelte';
 
   const data = [
     { x: 1, y: 1 },
