@@ -37,7 +37,7 @@
     <Svg>
       <AxisX ticks={10} />
       <AxisY ticks={10} />
-      <Line color='#f0c'/>
+      <Line stroke='#f0c'/>
     </Svg>
   </LayerCake>
 </div>
